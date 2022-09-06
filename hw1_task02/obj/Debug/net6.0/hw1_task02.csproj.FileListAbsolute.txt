@@ -1,0 +1,15 @@
+C:\Users\Глеб\Downloads\GB.RU\03_Знакомство с C#\Семинары\HomeWork\hw1_task02\bin\Debug\net6.0\hw1_task02.exe
+C:\Users\Глеб\Downloads\GB.RU\03_Знакомство с C#\Семинары\HomeWork\hw1_task02\bin\Debug\net6.0\hw1_task02.deps.json
+C:\Users\Глеб\Downloads\GB.RU\03_Знакомство с C#\Семинары\HomeWork\hw1_task02\bin\Debug\net6.0\hw1_task02.runtimeconfig.json
+C:\Users\Глеб\Downloads\GB.RU\03_Знакомство с C#\Семинары\HomeWork\hw1_task02\bin\Debug\net6.0\hw1_task02.dll
+C:\Users\Глеб\Downloads\GB.RU\03_Знакомство с C#\Семинары\HomeWork\hw1_task02\bin\Debug\net6.0\hw1_task02.pdb
+C:\Users\Глеб\Downloads\GB.RU\03_Знакомство с C#\Семинары\HomeWork\hw1_task02\obj\Debug\net6.0\hw1_task02.csproj.AssemblyReference.cache
+C:\Users\Глеб\Downloads\GB.RU\03_Знакомство с C#\Семинары\HomeWork\hw1_task02\obj\Debug\net6.0\hw1_task02.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Глеб\Downloads\GB.RU\03_Знакомство с C#\Семинары\HomeWork\hw1_task02\obj\Debug\net6.0\hw1_task02.AssemblyInfoInputs.cache
+C:\Users\Глеб\Downloads\GB.RU\03_Знакомство с C#\Семинары\HomeWork\hw1_task02\obj\Debug\net6.0\hw1_task02.AssemblyInfo.cs
+C:\Users\Глеб\Downloads\GB.RU\03_Знакомство с C#\Семинары\HomeWork\hw1_task02\obj\Debug\net6.0\hw1_task02.csproj.CoreCompileInputs.cache
+C:\Users\Глеб\Downloads\GB.RU\03_Знакомство с C#\Семинары\HomeWork\hw1_task02\obj\Debug\net6.0\hw1_task02.dll
+C:\Users\Глеб\Downloads\GB.RU\03_Знакомство с C#\Семинары\HomeWork\hw1_task02\obj\Debug\net6.0\refint\hw1_task02.dll
+C:\Users\Глеб\Downloads\GB.RU\03_Знакомство с C#\Семинары\HomeWork\hw1_task02\obj\Debug\net6.0\hw1_task02.pdb
+C:\Users\Глеб\Downloads\GB.RU\03_Знакомство с C#\Семинары\HomeWork\hw1_task02\obj\Debug\net6.0\hw1_task02.genruntimeconfig.cache
+C:\Users\Глеб\Downloads\GB.RU\03_Знакомство с C#\Семинары\HomeWork\hw1_task02\obj\Debug\net6.0\ref\hw1_task02.dll
