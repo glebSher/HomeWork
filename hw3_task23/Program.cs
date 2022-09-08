@@ -11,9 +11,9 @@ if (number > 0)
 {
     while (count <= number)
     {
-        double squareNumber = Math.Pow(count, 3);
-        Console.Write(squareNumber + " ");
-        count += 1;
+        double cubeNumber = Math.Pow(count, 3);
+        Console.Write(cubeNumber + " ");
+        count ++;
     }
 }
 else
