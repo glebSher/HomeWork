@@ -23,4 +23,4 @@ int SumNumberMtoN (int m, int n)
 int numberM = ReadNumber("Введите M");
 int numberN = ReadNumber("Введите N");
 int smNumbers = SumNumberMtoN(numberM, numberN);
-Console.WriteLine ($"Сумма цифр в числе = {smNumbers}");
+Console.WriteLine ($"Сумма чисел от M до N = {smNumbers}");
