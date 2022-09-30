@@ -12,6 +12,7 @@ int ReadNumber(string msg)
 int AkkermanFunction(int m, int n)
 {
     int result = 1;
+    if (m < 0 || n < 0) return result = - 1;
     if (m == 0 && n == 0) return result;
     else if (m == 0)
     {
@@ -31,4 +32,6 @@ int AkkermanFunction(int m, int n)
 int numberM = ReadNumber("Введите M");
 int numberN = ReadNumber("Введите N");
 int akkermanFunction = AkkermanFunction(numberM, numberN);
-Console.WriteLine($"A(m,n) = {akkermanFunction}");
+
+if (akkermanFunction > 0) Console.WriteLine($"A(m,n) = {akkermanFunction}");
+else Console.WriteLine("Введено некорректное значение аргументов M и N");
