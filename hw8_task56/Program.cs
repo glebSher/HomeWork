@@ -43,9 +43,10 @@ void PrintMatrix(int[,] matr)
 
 void MinSumElementRow(int[,] matr)
 {
-    int minRows = 0;
+    int minRow = 0;
     int sumElement = 0;
-    int minSumElement = sumElement;
+    int minSumElement = matr.GetLength(1) * 9; // максимально возможная сумма:
+    // произведение количества элементов в строке на максимально возможное значение элемента
     for (int i = 0; i < matr.GetLength(0); i++)
     {
         for (int j = 0; j < matr.GetLength(1); j++)
@@ -55,13 +56,14 @@ void MinSumElementRow(int[,] matr)
         Console.WriteLine($"Сумма элементов строки {i} = {sumElement}");
         if (sumElement < minSumElement)
         {
+            minRow = 0;
             minSumElement = sumElement;
-            minRows = i;
+            minRow = minRow + i;
         }
         sumElement = 0;
     }
     Console.WriteLine($"Наименьшая сумма элементов: {minSumElement}");
-    Console.WriteLine($"Строка с наименьшей суммой элементов: {minRows}");
+    Console.WriteLine($"Строка с наименьшей суммой элементов: {minRow}");
 }
 
 int m = ReadNumber("Введите количество строк:");
