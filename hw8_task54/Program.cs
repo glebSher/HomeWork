@@ -46,28 +46,20 @@ void MatrixSorting(int[,] matr)
 {
     for (int i = 0; i < matr.GetLength(0); i++)
     {
-        int min = matr[i, 0];
-        // int max = matr[i, 0];
-        for (int j = 0; j < matr.GetLength(1); j++)
+        for (int j = 0; j < matr.GetLength(1) - 1; j++)
         {
-            if (matr[i, j] < min)
+            int min = j;
+            for (int k = j + 1; k < matr.GetLength(1); k++)
             {
-                min = matr[i, j];
-                int temp = matr[i, 0];
-                matr[i, 0] = matr[i, j];
-                matr[i, j] = temp;
+                if (matr[i, k] < matr[i, min])
+                {
+                    min = k;
+                }
             }
-            else 
-            // else if (matr[i, j] < max)
-            // {
-            //     max = matr[i, j];
-            //     int temp = matr[i, matr.GetLength(1) - 1];
-            //     matr[i, matr.GetLength(1) - 1] = matr[i, j];
-            //     matr[i, j] = temp;
-            // }
-            Console.Write($"{matr[i, j]} ");
+            int temp = matr[i, j];
+            matr[i, j] = matr[i, min];
+            matr[i, min] = temp;
         }
-        Console.WriteLine();
     }
 }
 
@@ -77,3 +69,4 @@ int[,] matrix = GetMatrix(m, n);
 PrintMatrix(matrix);
 Console.WriteLine();
 MatrixSorting(matrix);
+PrintMatrix(matrix);
